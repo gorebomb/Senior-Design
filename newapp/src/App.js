@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './GRABW_Logo.jpg';
 import './App.css';
 
 const tableStyle = {
@@ -16,6 +16,7 @@ const tableStyle2 = {
 function App() {
 	return (
 		<div className="App">
+			<img src={logo} alt="Logo"/>
 			<h1>Team GRABW: Spot My Spot</h1>
 			<table border = "5" width = "800" height = "100" style={tableStyle}>
 				<tr>

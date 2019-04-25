@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "Starting scripts..."
-raspistill -vf -hf -o cam2.jpeg
+raspistill -w 225 -h 225 -q 100 -vf -hf -o cam2.jpeg
 python3 edgeDetect.py

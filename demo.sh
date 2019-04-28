@@ -19,8 +19,8 @@ current_time=$(date "+%Y.%m.%d-%H.%M.%S")
  
 new_fileName1=$file_name1.$current_time.jpg
 
-mv highresedges.jpg ~/Downloads/srDesign/Senior-Design/highresedges/$new_fileName1
+mv highresedges.jpg ~/Senior-Design/highresedges/$new_fileName1
 
 new_fileName2=$file_name2.$current_time.jpeg
 
-mv highrescam2.jpeg ~/Downloads/srDesign/Senior-Design/highrespics/$new_fileName2
+mv highrescam2.jpeg ~/Senior-Design/highrespics/$new_fileName2

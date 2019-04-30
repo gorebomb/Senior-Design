@@ -9,7 +9,7 @@
 	ssh pi@10.159.41.193 'bash -s' < pic.sh
 	scp pi@10.159.41.193:/home/pi/highresedges.jpg .
 	scp pi@10.159.41.193:/home/pi/highrescam2.jpeg .
-	python3 pixel.py
+	python pixel.py
 	python3 example.py	
 	sleep 5s
 #done

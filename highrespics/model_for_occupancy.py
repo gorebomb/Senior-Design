@@ -24,7 +24,7 @@ def show_images(images, cmap=None):
     plt.tight_layout(pad=0, h_pad=0, w_pad=0)
     plt.show()
 
-test_images = [plt.imread(path) for path in glob.glob('test_images/*.jpg')]
+test_images = [plt.imread(path) for path in glob.glob('test_images/*.jpeg')]
 
 show_images(test_images)
 

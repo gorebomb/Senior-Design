@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "Taking Picture..."
-raspistill -w 225 -h 225 -q 100 -vf -hf -o cam2.jpeg
+raspistill -w 1000 -h 1000 -q 100 -vf -hf -o highrescam2.jpeg
 python3 edgeDetect.py

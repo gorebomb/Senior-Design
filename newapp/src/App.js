@@ -12,8 +12,18 @@ const tableStyle2 = {
 };
 
 
+var data = require('./data.json');
 
-function App() {
+/*
+for(var i = 0; i < data.length; i++){
+	var obj = data[i];
+	console.log("Name: " + obj.first_name + ", " + obj.last_name);
+}
+*/
+
+
+class App extends React.Component {
+	render(){
 	return (
 		<div className="App">
 			<img src={logo} alt="Logo"/>
@@ -89,6 +99,7 @@ function App() {
 		</center>
 		</div>
 	);
+}
 }
 
 export default App;
